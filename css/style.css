@@ -2741,22 +2741,31 @@ ul {
     background-position: center;
 }
 @media (max-width: 576px) {
-  /* line 164, E:/172 Etrain Education/172_Etrain_Education_html/sass/_banner.scss */
-  .banner_part:after {
-    position: absolute;
-    top: 150px;
-    max-width: 100%;
-    max-height: 100%;
-    width: 350px;
-    content: "";
-    background-image: url(../img/banner_img.png);
-    background-size: contain;
-    right: 0;
-    left: 0;
-    text-align: center;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-  }
+    .banner_part:after {
+        position: absolute;
+        top: 150px;
+        max-width: 100%;
+        max-height: 100%;
+        width: 350px;
+        content: "";
+        background-image: url(../img/banner_img.png);
+        background-size: contain;
+        right: 0;
+        left: 0;
+        text-align: center;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .banner_part .banner_text_iner {
+        position: relative;
+        top: 50px;
+        z-index: 2;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -7464,3 +7473,142 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 605px !important;
 }
 
+.brand-link {
+  color: rgb(30, 16, 235);
+  transition: 0.2s ease;
+}
+
+.brand-link:hover {
+color: #cf0000;
+}
+
+.privacy-section {
+  background-color: rgb(255, 255, 255);
+  color: #cf0000;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  padding: 60px 20px;
+}
+
+.privacy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.privacy-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #f52c2c
+}
+
+.privacy-section h2 {
+  margin-top: 30px;
+  color: rgb(241, 66, 66);
+}
+
+.privacy-section ul {
+  padding-left: 20px;
+  color: #6c757d;
+}
+
+.contact-box {
+  background: rgb(236, 236, 236);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.update-text {
+  margin-top: 40px;
+  font-size: 14px;
+  color: black;
+}
+
+#cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 360px;
+  background:  rgb(255, 255, 255);
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  font-family: Arial;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  z-index: 9999;
+    display: none;
+}
+
+#cookie-banner h3 {
+  margin-top: 0;
+color: #2c2c2c
+}
+
+#cookie-banner p {
+  font-size: 13px;
+  color: #201f1f;
+}
+
+.buttons11 {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#accept {
+  background: red;
+  color: white;
+  transition: 1s ease;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+#reject {
+  background: #333;
+  color: white;
+  transition: 1s ease;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+#accept:hover {
+  background: rgb(175, 1, 1);
+  color: white;
+  transition: 1s ease;
+  font-weight: 700;
+}
+
+#reject:hover {
+  background: #646464;
+  color: white;
+  transition: 1s ease;
+  font-weight: 700;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #aaa;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #e04343;
+}
+
+.footer-links span {
+    color: #666;
+    margin: 0 8px;
+}

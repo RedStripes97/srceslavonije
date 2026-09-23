@@ -5,7 +5,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
     <title>Srce Slavonije</title>
+    <meta name="description" content="Srce Slavonije — video produkcija, fotografija, Đakovo i Hrvatska. Profesionalna multimedijska stranica Slavonije">
+    <meta name="keywords" content="Video produkcija Đakovo, multimedia studio, fotografija, grafički dizajn, video snimanje, Srce Slavonije">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.srceslavonije.com">
+    <meta property="og:title" content="Srce Slavonije, sela i gradovi, video i foto.">
+    <meta property="og:description" content="Srce Slavonije video i foto produkcija, dron i kamera.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.srceslavonije.com">
+
+
     <link rel="icon" type="image/png" href="/img/Ikone/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/img/Ikone/favicon.svg" />
     <link rel="shortcut icon" href="/img/Ikone/favicon.ico" />
@@ -33,13 +45,38 @@
 </head>
 
 <body>
+
+<div id="cookie-banner">
+  <h3>Mi koristimo kolačiće</h3>
+  <p>
+    Ova web stranica koristi kolačiće i druge tehnologije praćenja kako bi poboljšala vaše iskustvo pregledavanja u sljedeće svrhe:
+    omogućiti osnovnu funkcionalnost web stranice, za pružanje boljeg iskustva na web stranici, za mjerenje vašeg interesa za naše usluge.
+  </p>
+
+  <div class="buttons11">
+    <button id="accept">Slažem se</button>
+    <button id="reject">Odbijam</button>
+  </div>
+</div>
+
+<!--
+<button onclick="localStorage.removeItem('cookieChoice'); location.reload();" 
+style="position:fixed; top:20px; left:20px; z-index:999999;">
+RESET COOKIES
+</button>
+-->
+
+
+
+
+
     <!--::header part start::-->
     <header class="main_menu home_menu">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand logac" href="/index.html"> <img src="/img/logo.svg" alt="logo"> </a>
+                        <a class="navbar-brand logac" href="/"> <img src="/img/logo.svg" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -50,22 +87,22 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color: #ff1c1c;" href="/index.html">Početna</a>
+                                    <a class="nav-link" style="color: #ff1c1c;" href="/">Početna</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/Onama/index.html">O nama</a>
+                                    <a class="nav-link" href="/Onama">O nama</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/Fotografije/index.html">Fotografije</a>
+                                    <a class="nav-link" href="/Fotografije">Fotografije</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/Video/index.html">Video</a>
+                                    <a class="nav-link" href="/Video">Video</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/Kontakt/index.html">Kontakt</a>
+                                    <a class="nav-link" href="/Kontakt">Kontakt</a>
                                 </li>
                                 <li class="d-none d-lg-block">
-                                    <a class="btn_1" href="/Kontakt/index.html">Suradnja</a>
+                                    <a class="btn_1" href="/Kontakt">Suradnja</a>
                                 </li>
                             </ul>
                         </div>
@@ -83,12 +120,12 @@
                 <div class="col-lg-6 col-xl-6">
                     <div class="banner_text">
                         <div class="banner_text_iner">
-                            <h1>FOTO I VIDEO
+                            <h1 class="baba12">FOTO I VIDEO
                                 VAŠEG MJESTA</h1>
                             <p>Otkrijte Slavoniju kroz naše fotografije i video sadržaj. Upoznajte njezina sela, gradove, ljude i mjesta koja je čine posebnom.
                                 Plan nam je snimiti cijelu Slavoniju i stvoriti vječne uspomene na nju te zabilježiti kako izgleda danas. </p>
-                            <a href="/Fotografije/index.html" class="btn_1">Fotografije</a>
-                            <a href="/Video/index.html" class="btn_2">Video klipovi </a>
+                            <a href="/Fotografije" class="btn_1">Fotografije</a>
+                            <a href="/Video" class="btn_2">Video klipovi </a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +142,7 @@
                     <div class="single_feature_text ">
                         <h2>NAŠA <br> VIZIJA</h2>
                         <p>Želimo kroz fotografiju i video obići i zabilježiti sve gradove i sela naše Slavonije. Naš cilj je pokazati koliko je Slavonija posebna, lijepa i vrijedna pažnje te njezine najljepše priče približiti svima, kako u Hrvatskoj, tako i izvan nje. </p>
-                        <a href="/#" class="btn_1">O nama</a>
+                        <a href="/Onama" class="btn_1">O nama</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-3">
@@ -215,37 +252,37 @@
 
 <div class="gallery">
 
-  <a href="/Fotografije/index.html" class="horizontal">
+  <a href="/Fotografije" class="horizontal">
     <img src="/img/fotografije/f1.jpg" alt="Đakovo">
     <span>Đ A K O V O</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="horizontal">
+  <a href="/Fotografije" class="horizontal">
     <img src="/img/fotografije/f2.jpg" alt="Budrovci">
     <span>B U D R O V C I</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="vertical">
+  <a href="/Fotografije" class="vertical">
     <img src="/img/fotografije/f3.jpg" alt="Piškorevci">
     <span>P I Š K O R E V C I</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="vertical">
+  <a href="/Fotografije" class="vertical">
     <img src="/img/fotografije/f4.jpg" alt="Dragotin">
     <span>D R A G O T I N</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="vertical">
+  <a href="/Fotografije" class="vertical">
     <img src="/img/fotografije/f5.jpg" alt="Selci">
     <span>S E L C I</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="horizontal">
+  <a href="/Fotografije" class="horizontal">
     <img src="/img/fotografije/f6.jpg" alt="Satnica">
     <span>S A T N I C A</span>
   </a>
 
-  <a href="/Fotografije/index.html" class="horizontal">
+  <a href="/Fotografije" class="horizontal">
     <img src="/img/fotografije/f7.jpg" alt="Josava">
     <span>J O Š A V A</span>
   </a>
@@ -314,8 +351,8 @@
                         <div class="card">
                             <img src="/img/blog/blog_1.png" class="card-img-top" alt="blog">
                             <div class="card-body">
-                                <a href="/#" class="btn_4">Kuševac</a>
-                                <a href="/blog.html">
+                                <a href="/Fotografije/" class="btn_4">Kuševac</a>
+                                <a href="/Fotografije/">
                                     <h5 class="card-title">Oblaci na horizontu</h5>
                                 </a>
                                 <p>Video klip snimljen u Kuševcu, prikazuje selo i dio jezera Jošava.</p>
@@ -332,8 +369,8 @@
                         <div class="card">
                             <img src="/img/blog/blog_2.png" class="card-img-top" alt="blog">
                             <div class="card-body">
-                                <a href="/#" class="btn_4">Satnica Đakovačka</a>
-                                <a href="/blog.html">
+                                <a href="/Fotografije/" class="btn_4">Satnica Đakovačka</a>
+                                <a href="/Fotografije/">
                                     <h5 class="card-title">Crkva u Satnici</h5>
                                 </a>
                                 <p>Video klip snimljen u Satnici Đakovačkoj, prikazuje crkvu, detalje i ostatak sela.</p>
@@ -350,8 +387,8 @@
                         <div class="card">
                             <img src="/img/blog/blog_3.png" class="card-img-top" alt="blog">
                             <div class="card-body">
-                                <a href="/#" class="btn_4">Budrovci</a>
-                                <a href="/blog.html">
+                                <a href="/Fotografije/" class="btn_4">Budrovci</a>
+                                <a href="/Fotografije/">
                                     <h5 class="card-title">Vlak u Budrovcima</h5>
                                 </a>
                                 <p>Video klip snimljen u Budrovcima, prikazuje vlak kako prolazi pored stanice.</p>
@@ -374,7 +411,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-4 col-xl-3">
                     <div class="single-footer-widget footer_1">
-                        <a href="/index.html"> <img src="/img/logo.svg" alt=""> </a>
+                        <a href="/"> <img src="/img/logo.svg" alt=""> </a>
                         <p>Nastavite nas pratiti i budite u tijeku s novostima! Naša stranica redovito će se ažurirati novim sadržajem, fotografijama te novim selima i gradovima.</p>
                         <p>Pratite nas i otkrijte što novo pripremamo.</p>
                     </div>
@@ -385,10 +422,16 @@
                         <p>Mi smo i na društvenim mrežama! Pogledajte naše najnovije radove, projekte i sadržaj na Instagramu i TikToku.
                         </p>
                         <div class="social_icon">
-                        <a href="/#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="/#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/srceslavonije/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@srce.slavonije?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
                         </div>
                     </div>
+                        <div class="footer-links">
+                        <a href="/politika_privatnosti/">Politika privatnosti</a>
+                        </div>  
+                        <div class="footer-links" style="margin-bottom: 25px;">
+                        <a href="/uvjeti_koristenja/">Uvjeti korištenja</a>
+                        </div>  
                 </div>
                 <div class="col-xl-3 col-sm-6 col-md-4">
                     <div class="single-footer-widget footer_2">
@@ -441,6 +484,27 @@ Copyright &copy; 2026 SRCE SLAVONIJE | Sva prava pridržana. | Kreirao: <a href=
     <script src="/js/slick.min.js"></script>
     <script src="/js/jquery.counterup.min.js"></script>
     <script src="/js/waypoints.min.js"></script>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("cookie-banner");
+
+    // Ako NIJE još kliknuto → pokaži
+    if (!localStorage.getItem("cookieChoice")) {
+      banner.style.display = "block";
+    }
+
+    document.getElementById("accept").onclick = function () {
+      localStorage.setItem("cookieChoice", "yes");
+      banner.remove();
+    };
+
+    document.getElementById("reject").onclick = function () {
+      localStorage.setItem("cookieChoice", "no");
+      banner.remove();
+    };
+  });
+</script>
     <!-- custom js -->
     <script src="/js/custom.js"></script>
 </body>
