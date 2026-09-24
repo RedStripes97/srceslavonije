@@ -3314,9 +3314,13 @@ ul {
 
 /* line 47, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
 .learning_part .learning_img img {
-  padding: 0px 53px 64px 50px;
+    padding: 0px 53px 64px 50px;
+    transition: transform 0.8s ease;
 }
 
+.learning_part .learning_img img:hover {
+    transform: scale(1.05);
+}
 @media (max-width: 576px) {
   /* line 47, E:/172 Etrain Education/172_Etrain_Education_html/sass/_learning.scss */
   .learning_part .learning_img img {
@@ -7611,4 +7615,9 @@ button {
 .footer-links span {
     color: #666;
     margin: 0 8px;
+}
+
+.mjestasca {
+    color: #222222;
+    font-weight: bold;
 }
